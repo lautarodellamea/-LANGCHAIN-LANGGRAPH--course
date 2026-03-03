@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Vector stores
+chroma_db/
+*.chroma
+
+# API Keys & Tokens
+token.json
+*.key
+secrets.json
+credentials.json
+# Test files with API keys
+test.py
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Media files (opcional - descomenta si no quieres subir videos/imágenes)
+# *.mp4
+# *.mov
+# *.avi
+# *.jpg
+# *.png
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Streamlit
+.streamlit/
+
+# PDFs (opcional - descomenta si no quieres subir PDFs)
+# *.pdf
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
