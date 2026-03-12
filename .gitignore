@@ -37,6 +37,8 @@ env/
 .env
 .env.local
 .env.*.local
+# SOC multiagent: claves API (VirusTotal, Tavily, Gmail, etc.)
+curso_langchain/tema_6/proyecto/soc_multiagent/.env
 
 # Databases
 *.db
@@ -54,6 +56,7 @@ token.json
 *.key
 secrets.json
 credentials.json
+credential-agentes.json
 # Test files with API keys
 test.py
 
